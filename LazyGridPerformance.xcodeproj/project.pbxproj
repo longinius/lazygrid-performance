@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4654C52F270C553E00609CCC /* LazyGridPerformanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4654C52E270C553E00609CCC /* LazyGridPerformanceApp.swift */; };
+		4654C533270C554000609CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4654C532270C554000609CCC /* Assets.xcassets */; };
+		4654C536270C554000609CCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4654C535270C554000609CCC /* Preview Assets.xcassets */; };
+		4654C53E270C557700609CCC /* DateSelectionPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4654C53D270C557700609CCC /* DateSelectionPicker.swift */; };
+		4654C540270C559300609CCC /* OrderTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4654C53F270C559300609CCC /* OrderTableView.swift */; };
+		4654C542270C55A100609CCC /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4654C541270C55A100609CCC /* OrderView.swift */; };
+		4654C548270C579C00609CCC /* CheckButtonToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4654C547270C579C00609CCC /* CheckButtonToggleStyle.swift */; };
+		4654C54A270C5A2E00609CCC /* OrderItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4654C549270C5A2E00609CCC /* OrderItemView.swift */; };
+		4654C54C270C5A3400609CCC /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4654C54B270C5A3400609CCC /* OrderRowView.swift */; };
+		4654C553270C5DD300609CCC /* SwifterSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4654C552270C5DD300609CCC /* SwifterSwift */; };
+		4654C555270C6EF000609CCC /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4654C554270C6EF000609CCC /* OrderViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4654C52B270C553E00609CCC /* LazyGridPerformance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazyGridPerformance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4654C52E270C553E00609CCC /* LazyGridPerformanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridPerformanceApp.swift; sourceTree = "<group>"; };
+		4654C532270C554000609CCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4654C535270C554000609CCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4654C53D270C557700609CCC /* DateSelectionPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectionPicker.swift; sourceTree = "<group>"; };
+		4654C53F270C559300609CCC /* OrderTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableView.swift; sourceTree = "<group>"; };
+		4654C541270C55A100609CCC /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		4654C543270C55E200609CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4654C547270C579C00609CCC /* CheckButtonToggleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckButtonToggleStyle.swift; sourceTree = "<group>"; };
+		4654C549270C5A2E00609CCC /* OrderItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderItemView.swift; sourceTree = "<group>"; };
+		4654C54B270C5A3400609CCC /* OrderRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
+		4654C554270C6EF000609CCC /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4654C528270C553E00609CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4654C553270C5DD300609CCC /* SwifterSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4654C522270C553E00609CCC = {
+			isa = PBXGroup;
+			children = (
+				4654C52D270C553E00609CCC /* LazyGridPerformance */,
+				4654C52C270C553E00609CCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4654C52C270C553E00609CCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4654C52B270C553E00609CCC /* LazyGridPerformance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4654C52D270C553E00609CCC /* LazyGridPerformance */ = {
+			isa = PBXGroup;
+			children = (
+				4654C543270C55E200609CCC /* Info.plist */,
+				4654C53C270C557700609CCC /* Date Selection */,
+				4654C546270C579C00609CCC /* ToggleStyles */,
+				4654C52E270C553E00609CCC /* LazyGridPerformanceApp.swift */,
+				4654C541270C55A100609CCC /* OrderView.swift */,
+				4654C554270C6EF000609CCC /* OrderViewModel.swift */,
+				4654C53F270C559300609CCC /* OrderTableView.swift */,
+				4654C54B270C5A3400609CCC /* OrderRowView.swift */,
+				4654C549270C5A2E00609CCC /* OrderItemView.swift */,
+				4654C532270C554000609CCC /* Assets.xcassets */,
+				4654C534270C554000609CCC /* Preview Content */,
+			);
+			path = LazyGridPerformance;
+			sourceTree = "<group>";
+		};
+		4654C534270C554000609CCC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4654C535270C554000609CCC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4654C53C270C557700609CCC /* Date Selection */ = {
+			isa = PBXGroup;
+			children = (
+				4654C53D270C557700609CCC /* DateSelectionPicker.swift */,
+			);
+			path = "Date Selection";
+			sourceTree = "<group>";
+		};
+		4654C546270C579C00609CCC /* ToggleStyles */ = {
+			isa = PBXGroup;
+			children = (
+				4654C547270C579C00609CCC /* CheckButtonToggleStyle.swift */,
+			);
+			path = ToggleStyles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4654C52A270C553E00609CCC /* LazyGridPerformance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4654C539270C554000609CCC /* Build configuration list for PBXNativeTarget "LazyGridPerformance" */;
+			buildPhases = (
+				4654C527270C553E00609CCC /* Sources */,
+				4654C528270C553E00609CCC /* Frameworks */,
+				4654C529270C553E00609CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LazyGridPerformance;
+			packageProductDependencies = (
+				4654C552270C5DD300609CCC /* SwifterSwift */,
+			);
+			productName = LazyGridPerformance;
+			productReference = 4654C52B270C553E00609CCC /* LazyGridPerformance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4654C523270C553E00609CCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					4654C52A270C553E00609CCC = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 4654C526270C553E00609CCC /* Build configuration list for PBXProject "LazyGridPerformance" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4654C522270C553E00609CCC;
+			packageReferences = (
+				4654C551270C5DD300609CCC /* XCRemoteSwiftPackageReference "SwifterSwift" */,
+			);
+			productRefGroup = 4654C52C270C553E00609CCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4654C52A270C553E00609CCC /* LazyGridPerformance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4654C529270C553E00609CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4654C536270C554000609CCC /* Preview Assets.xcassets in Resources */,
+				4654C533270C554000609CCC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4654C527270C553E00609CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4654C52F270C553E00609CCC /* LazyGridPerformanceApp.swift in Sources */,
+				4654C548270C579C00609CCC /* CheckButtonToggleStyle.swift in Sources */,
+				4654C540270C559300609CCC /* OrderTableView.swift in Sources */,
+				4654C54C270C5A3400609CCC /* OrderRowView.swift in Sources */,
+				4654C53E270C557700609CCC /* DateSelectionPicker.swift in Sources */,
+				4654C555270C6EF000609CCC /* OrderViewModel.swift in Sources */,
+				4654C54A270C5A2E00609CCC /* OrderItemView.swift in Sources */,
+				4654C542270C55A100609CCC /* OrderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4654C537270C554000609CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4654C538270C554000609CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4654C53A270C554000609CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LazyGridPerformance/Preview Content\"";
+				DEVELOPMENT_TEAM = 7CL5P8H4W6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LazyGridPerformance/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LazyGridPerformance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4654C53B270C554000609CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LazyGridPerformance/Preview Content\"";
+				DEVELOPMENT_TEAM = 7CL5P8H4W6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LazyGridPerformance/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LazyGridPerformance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4654C526270C553E00609CCC /* Build configuration list for PBXProject "LazyGridPerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4654C537270C554000609CCC /* Debug */,
+				4654C538270C554000609CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4654C539270C554000609CCC /* Build configuration list for PBXNativeTarget "LazyGridPerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4654C53A270C554000609CCC /* Debug */,
+				4654C53B270C554000609CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4654C551270C5DD300609CCC /* XCRemoteSwiftPackageReference "SwifterSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwifterSwift/SwifterSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4654C552270C5DD300609CCC /* SwifterSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4654C551270C5DD300609CCC /* XCRemoteSwiftPackageReference "SwifterSwift" */;
+			productName = SwifterSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4654C523270C553E00609CCC /* Project object */;
+}
